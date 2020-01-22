@@ -10,13 +10,9 @@ A basic chat application to understand client-server architecture
 
 > Socket.IO
 
-# Architecture
+# Client-Server Architecture
 
-## Client-Server Model
-
-![]()
-
->
+## What is front-end and backend?
 
 - **Front End** is the part of website that user/client directly interacts with;
   + It may be images, tables, buttons, menu;
@@ -33,3 +29,11 @@ A basic chat application to understand client-server architecture
   + Back end languages: **PHP,JavaScript(Yes),Node.js, Python, REST, Ruby**;
   + Node.js is **runtime environment** to execute JS code outside a browser(for eg. to run HelloWorld.js,i.e to see output, use node);
   + Back end frameworks: **Express**, Django, Spring;
+
+## Okay, so what about nature of webapps?
+
+- There are three kinds of web products
+  + Websites: show static pages to all;
+  + Webapp: pages shown are different for clients(customized to client data);
+  + **Traditional webapps**:client has to ask from server information/data;
+  + **Real time webapps**:information is transmitted almost instantaneously between users and servers(between users too)
