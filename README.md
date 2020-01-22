@@ -21,4 +21,15 @@ A basic chat application to understand client-server architecture
 - **Front End** is the part of website that user/client directly interacts with;
   + It may be images, tables, buttons, menu;
   + It should be **responsive** that is appear correctly on devices of all sizes(no abnormal behaviour);
-  + Front end languages: **HTML, CSS, JavaScript**, while HTML and CSS deal with styling and designing(the look), JS deals with the functionalities(for eg. click on button or arrow keys pressed in a JS game);
+  + Front end languages: **HTML, CSS, JavaScript**;
+  + HTML and CSS deal with styling and designing(the look);
+  + JS deals with the functionalities(for eg. click on button or arrow keys pressed in a JS game);
+  + Front end extensions: AngularJS, React.js, jQuery, SASS, Bootstrap;
+  + Angular JS is a framework used to make Single page web apps, React.js is a JS library to create UI
+
+- **Back End** is the part that handles server side;
+  + Tasks like storing data in a database, calling APIs;
+  + Client has no control over it, only server side programmers;
+  + Back end languages: **PHP,JavaScript(Yes),Node.js, Python, REST, Ruby**;
+  + Node.js is **runtime environment** to execute JS code outside a browser(for eg. to run HelloWorld.js,i.e to see output, use node);
+  + Back end frameworks: **Express**, Django, Spring;
