@@ -49,8 +49,8 @@ Table of Contents
 ## What are the types of webapps?
 
 - There are three kinds of web products
-  + Websites: show static pages to all;
-  + Webapp: pages shown are different for clients(customized to client data);
+  + **Static Websites**: show static pages to all;
+  + **Webapp**: pages shown are different for clients(customized to client data);
   + **Traditional webapps**:client has to ask from server information/data;
   + **Real time webapps**:information is transmitted almost instantaneously between users and servers(between users too);
   + For eg. a chat application between two clients, where chat goes to server and a client has to poll to get updates;
@@ -60,8 +60,22 @@ Table of Contents
 
 - Most of the internet works on **HTTP Request/Response model**;
   + It means client sends request for data and server sends response;
-  + It also implies that the protocol is client oriented and **server can't send any data to client without a request**;
+  + It also implies that the protocol is client oriented and **server can't send any data to client over HTTP without a request**;
 - Let us say our model M consists of client A and B and server S;
+- Say A requested S for an image and got the response, but then B sent an urgent updated image to server. So, how to let A know of such real time changes.
+- **User Driven** technique: User swipes down or presses refresh button, on doing so a request is sent to server, which sends updated data; 
+- **Polling** technique: Known as *client pull*, it is of three types-
+  + **Short Polling**: Every T seconds(a small interval) the client sends a request to server, the server responds with data(if updated);
+  + This a waste of resources on server as server has to allocate resources for request and carry operations for response, which may not even contain updated data;
+  + It also increases traffic with more clients.
+  + **Adaptive Polling**: Client increases checking time from T to 2T, 4T, 8T,... if it does not receive updates;
+  + When it does, it switches back to a smaller polling interval again;
+  + **Long Polling**: Instead of responding without updates, server now holds on to the HTTP request until an update;
+  + After it responds with the update, the client sends a request to the server that it hold on to again and the cycle continues;
+- **Websocket** technique: It is a HTTP based protocol;
+  + Client requests server to upgrade connection protocol from HTTP to websocket;
+  + Websocket connection is **bidirectional** and server can push data without requests;
+  + Downsides-one has to check if connection went down and client missed any update, more ever websocket is heavy on server with respect to performance, so supports less number of clients.
 
 ## What is ExpressJS and Socket IO?
 
