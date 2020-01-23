@@ -60,10 +60,19 @@ Table of Contents
   + When it does, it switches back to a smaller polling interval again;
   + **Long Polling**: Instead of responding without updates, server now holds on to the HTTP request until an update;
   + After it responds with the update, the client sends a request to the server that it hold on to again and the cycle continues;
+
+![](https://raw.githubusercontent.com/Avenge-PRC777/chat-app-client-server/master/images/polling.png)
+
+> Long Polling
+
 - **Websocket** technique: It is a HTTP based protocol;
   + Client requests server to upgrade connection protocol from HTTP to websocket;
   + Websocket connection is **bidirectional** and server can push data without requests;
   + Downsides-one has to check if connection went down and client missed any update, more ever websocket is heavy on server with respect to performance, so supports less number of clients.
+
+![](https://raw.githubusercontent.com/Avenge-PRC777/chat-app-client-server/master/images/websocket.png)
+
+> Websocket
 
 ## What is ExpressJS and Socket IO?
 
