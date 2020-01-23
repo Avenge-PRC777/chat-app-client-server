@@ -13,7 +13,7 @@ Table of Contents
 
 # Technologies Used
 
-![](https://raw.githubusercontent.com/Avenge-PRC777/chat-app-client-server/master/images/express.jpg)
+![](https://raw.githubusercontent.com/Avenge-PRC777/chat-app-client-server/master/images/express.png)
 
 > Express JS
 
