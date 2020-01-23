@@ -6,7 +6,6 @@ Table of Contents
 
    * [chat-app-client-server](#chat-app-client-server)
    * [Table of Contents](#table-of-contents)
-   * [Technologies Used](#technologies-used)
    * [Client-Server Architecture](#client-server-architecture)
       * [What is front-end and back-end?](#what-is-front-end-and-back-end)
       * [What are the types of webapps?](#what-are-the-types-of-webapps)
@@ -14,17 +13,6 @@ Table of Contents
       * [What is ExpressJS and Socket IO?](#what-is-expressjs-and-socket-io)
    * [Getting Started](#getting-started)
    * [Deploying](#deploying)
-
-
-# Technologies Used
-
-![](https://raw.githubusercontent.com/Avenge-PRC777/chat-app-client-server/master/images/express.png)
-
-> Express JS
-
-![](https://raw.githubusercontent.com/Avenge-PRC777/chat-app-client-server/master/images/socketio.png)
-
-> Socket.IO
 
 # Client-Server Architecture
 
@@ -79,7 +67,21 @@ Table of Contents
 
 ## What is ExpressJS and Socket IO?
 
+![](https://raw.githubusercontent.com/Avenge-PRC777/chat-app-client-server/master/images/express.png)
 
+> Express JS
+
+- Express is open source is a JavaScript framework to create web apps;
+- It is used for building web applications and APIs.
+- It is **de facto** standard server framework for Node.js that means it is the most widely used framework for server side login in JS;
+
+![](https://raw.githubusercontent.com/Avenge-PRC777/chat-app-client-server/master/images/socketio.png)
+
+> Socket.IO
+
+- Socket is a JavaScript library that helps in upgrading connection to WebSocket if possible or downgrading to HTTP Polling;
+- It is most widely used for real time web apps to enable bidirectional communication;
+- It has a client side library that run in browser and server side library for Node.js
 
 # Getting Started
 
