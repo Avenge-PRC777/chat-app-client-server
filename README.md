@@ -94,10 +94,20 @@ Table of Contents
 
 # Getting Started
 
+## All about Node.JS
+
 - **Installing Node.js**: It is recommended that one install virtualenv for python, create a python 2.7 virtual environment named as nodejs\_environments, and do **pip install nodeenv**;
   + **nodeenv** is used to create virtual environments for nodejs projects;
   + Like python virtual environment has its own python and pip version and does not use system ones, nodeenv makes a separate node and npm;
   + Use **source nodeJSEnvironments/projectname/bin/activate** to activate the nodeenv and **deactivate\_node** to deactivate it;
   + Always check *node and npm version and location* using **--version** and **which npm** or **which node**;
+- **Node project configuration**: Your node project should always have a **package.json** file
+  + **package.json** file contains directives for **npm**, the two compulsory ones are **name and version**;
+  + Optional directives are **description and dependencies**,dependencies will contain other modules you use for your module(project);
+  + **npm install module@version** will fill dependencies automatically with the module;
+- Node follows **semantic versioning** that is majorVersion.minorVersion.patchVersion
+  + When someone clones your repo and does **npm install** to install the dependencies, he/she will get latest minorVersion(because of ^ in package.json);
+  + Future version of a module can break your code, so here comes **package-lock.json**, npm looks into it and ignores the '^' and installs owner's(original) version
+
 
 # Deploying
