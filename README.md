@@ -5,11 +5,16 @@ Table of Contents
 =================
 
    * [chat-app-client-server](#chat-app-client-server)
+   * [Table of Contents](#table-of-contents)
    * [Technologies Used](#technologies-used)
    * [Client-Server Architecture](#client-server-architecture)
       * [What is front-end and back-end?](#what-is-front-end-and-back-end)
-      * [Okay, so what about nature of webapps?](#okay-so-what-about-nature-of-webapps)
+      * [What are the types of webapps?](#what-are-the-types-of-webapps)
+      * [How do real time web apps function?](#how-do-real-time-web-apps-function)
+      * [What is ExpressJS and Socket IO?](#what-is-expressjs-and-socket-io)
    * [Getting Started](#getting-started)
+   * [Deploying](#deploying)
+
 
 # Technologies Used
 
