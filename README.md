@@ -90,7 +90,9 @@ Table of Contents
 
 - Socket is a JavaScript library that helps in upgrading connection to WebSocket if possible or downgrading to HTTP Polling;
 - It is most widely used for real time web apps to enable bidirectional communication;
-- It has a client side library that run in browser and server side library for Node.js
+- It has a client side library that run in browser and server side library for Node.js;
+- Server side library integrates with HTTP server-socket.io, whereas client library loads on browser-coket.io-client;
+- For development socket.io serves client automatically;
 
 # Getting Started
 
