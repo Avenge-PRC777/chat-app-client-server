@@ -17,7 +17,7 @@ Table of Contents
 
 > Express JS
 
-![](https://raw.githubusercontent.com/Avenge-PRC777/chat-app-client-server/master/images/socket.jpg)
+![](https://raw.githubusercontent.com/Avenge-PRC777/chat-app-client-server/master/images/socketio.png)
 
 > Socket.IO
 
