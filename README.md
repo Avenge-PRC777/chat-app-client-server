@@ -41,7 +41,7 @@ Table of Contents
   + Node.js is **runtime environment** to execute JS code outside a browser(for eg. to run HelloWorld.js,i.e to see output, use node);
   + Back end frameworks: **Express**, Django, Spring;
 
-## Okay, so what about nature of webapps?
+## What are the types of webapps?
 
 - There are three kinds of web products
   + Websites: show static pages to all;
@@ -51,4 +51,17 @@ Table of Contents
   + For eg. a chat application between two clients, where chat goes to server and a client has to poll to get updates;
   + Basically, real time webapp is about dealing with state of server, Facebook is also a good example, as real time notifications come to you;
 
+## How do real time web apps function?
+
+- Most of the internet works on **HTTP Request/Response model**;
+  + It means client sends request for data and server sends response;
+  + It also implies that the protocol is client oriented and **server can't send any data to client without a request**;
+- Let us say our model M consists of client A and B and server S;
+
+## What is ExpressJS and Socket IO?
+
+
+
 # Getting Started
+
+# Deploying
