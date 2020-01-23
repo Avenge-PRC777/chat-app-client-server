@@ -94,4 +94,10 @@ Table of Contents
 
 # Getting Started
 
+- **Installing Node.js**: It is recommended that one install virtualenv for python, create a python 2.7 virtual environment named as nodejs\_environments, and do **pip install nodeenv**;
+  + **nodeenv** is used to create virtual environments for nodejs projects;
+  + Like python virtual environment has its own python and pip version and does not use system ones, nodeenv makes a separate node and npm;
+  + Use **source nodeJSEnvironments/projectname/bin/activate** to activate the nodeenv and **deactivate\_node** to deactivate it;
+  + Always check *node and npm version and location* using **--version** and **which npm** or **which node**;
+
 # Deploying
