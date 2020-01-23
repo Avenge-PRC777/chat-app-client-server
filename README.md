@@ -1,5 +1,16 @@
 # chat-app-client-server
 A basic chat application to understand client-server architecture
+
+Table of Contents
+=================
+
+   * [chat-app-client-server](#chat-app-client-server)
+   * [Technologies Used](#technologies-used)
+   * [Client-Server Architecture](#client-server-architecture)
+      * [What is front-end and back-end?](#what-is-front-end-and-back-end)
+      * [Okay, so what about nature of webapps?](#okay-so-what-about-nature-of-webapps)
+   * [Getting Started](#getting-started)
+
 # Technologies Used
 
 ![](https://raw.githubusercontent.com/Avenge-PRC777/chat-app-client-server/master/images/express.jpg)
@@ -12,7 +23,7 @@ A basic chat application to understand client-server architecture
 
 # Client-Server Architecture
 
-## What is front-end and backend?
+## What is front-end and back-end?
 
 - **Front End** is the part of website that user/client directly interacts with;
   + It may be images, tables, buttons, menu;
@@ -36,4 +47,8 @@ A basic chat application to understand client-server architecture
   + Websites: show static pages to all;
   + Webapp: pages shown are different for clients(customized to client data);
   + **Traditional webapps**:client has to ask from server information/data;
-  + **Real time webapps**:information is transmitted almost instantaneously between users and servers(between users too)
+  + **Real time webapps**:information is transmitted almost instantaneously between users and servers(between users too);
+  + For eg. a chat application between two clients, where chat goes to server and a client has to poll to get updates;
+  + Basically, real time webapp is about dealing with state of server, Facebook is also a good example, as real time notifications come to you;
+
+# Getting Started
