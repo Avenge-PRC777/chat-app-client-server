@@ -49,8 +49,8 @@ Table of Contents
 - Most of the internet works on **HTTP Request/Response model**;
   + It means client sends request for data and server sends response;
   + It also implies that the protocol is client oriented and **server can't send any data to client over HTTP without a request**;
-- Let us say our model M consists of client A and B and server S;
-- Say A requested S for an image and got the response, but then B sent an urgent updated image to server. So, how to let A know of such real time changes.
+  + Let us say our model M consists of client A and B and server S;
+  + Say A requested S for an image and got the response, but then B sent an urgent updated image to server. To let A know of such real time changes, the following techniques are available.
 - **User Driven** technique: User swipes down or presses refresh button, on doing so a request is sent to server, which sends updated data; 
 - **Polling** technique: Known as *client pull*, it is of three types-
   + **Short Polling**: Every T seconds(a small interval) the client sends a request to server, the server responds with data(if updated);
@@ -71,7 +71,7 @@ Table of Contents
 
 > Express JS
 
-- Express is open source is a JavaScript framework to create web apps;
+- Express is an open source JavaScript framework to create web apps;
 - It is used for building web applications and APIs.
 - It is **de facto** standard server framework for Node.js that means it is the most widely used framework for server side login in JS;
 
