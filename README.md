@@ -132,7 +132,7 @@ Table of Contents
 - **Install Heroku CLI**, go to heroku, login and create a new app(based on nodejs);
 - Use **$ heroku login** to login into heroku account through command line;
 - Use **$ heroku create** to create an app(this assigns a default name to repo, so not recommended);
-- Inside local repo, do **$ git remote add heroku https://git.heroku.com/\<yourprojectname\>.git** or **$ heroku git:remote -a yourprojectname**(works after login)
+- Inside local repo, do **$ git remote add heroku https://git.heroku.com/yourprojectname.git** or **$ heroku git:remote -a yourprojectname**(works after login)
   + This adds a remote to Heroku repo;
   + You can view your remotes using **git remote -v**
   + Do **$ git push heroku** to push your local repo to heroku
