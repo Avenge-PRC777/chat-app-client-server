@@ -122,6 +122,7 @@ Table of Contents
   + Include a **Procfile**(no extension) in your local git project which contains directives for Heroku to execute;
   + Inside Procfile, write \<process type\>: \<command\>
   + In a nodejs app it will be **web: node index.js**
+  + Modify port variable as process.env.PORT||5000, as Heroku provides dynamic port available at process.env.PORT;
   + Mention node version in package.json as follows:
 
 ```
