@@ -98,6 +98,7 @@ Table of Contents
 
 ## All about Node.JS
 
+- Nodejs is similar to python, so is npm to pip, package.json to requirements.txt
 - **Installing Node.js**: It is recommended that one install virtualenv for python, create a python 2.7 virtual environment named as nodejs\_environments, and do **pip install nodeenv**;
   + **nodeenv** is used to create virtual environments for nodejs projects;
   + Like python virtual environment has its own python and pip version and does not use system ones, nodeenv makes a separate node and npm;
@@ -113,3 +114,26 @@ Table of Contents
 
 
 # Deploying
+- **Heroku** is a cloud application, it offers platform as a service;
+- It is very similar to github where you can have repositories and those repositories will be hosted;
+
+- **Prerequisites in local repo**:
+  + Include a **Procfile**(no extension) in your local git project which contains directives for Heroku to execute;
+  + Inside Procfile, write \<process type\>: \<command\>
+  + In a nodejs app it will be **web: node index.js**
+  + Mention node version in package.json as follows:
+
+```
+"engines": {
+    "node": "10.x"
+  },
+```
+
+- **Install Heroku CLI**, go to heroku, login and create a new app(based on nodejs);
+- Use **$ heroku login** to login into heroku account through command line;
+- Use **$ heroku create** to create an app(this assigns a default name to repo, so not recommended);
+- Inside local repo, do **$ git remote add heroku https://git.heroku.com/yourprojectname.git** or **$ heroku git:remote -a yourprojectname**(works after login)
+  + This adds a remote to Heroku repo;
+  + You can view your remotes using **git remote -v**
+  + Do **$ git push heroku** to push your local repo to heroku
+  + Do **$ heroku open** to open the site
