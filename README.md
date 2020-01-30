@@ -12,6 +12,7 @@ Table of Contents
       * [How do real time web apps function?](#how-do-real-time-web-apps-function)
       * [What is ExpressJS and Socket IO?](#what-is-expressjs-and-socket-io)
    * [Getting Started](#getting-started)
+      * [All about Node.JS](#all-about-nodejs)
    * [Deploying](#deploying)
 
 # Client-Server Architecture
